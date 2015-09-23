@@ -5,9 +5,9 @@
 # FROM jupyter/jupyterhub:latest
 #
 
-FROM jupyter/notebook
+FROM bigboards/notebook-__arch__
 
-MAINTAINER Jupyter Project <jupyter@googlegroups.com>
+MAINTAINER BigBoards <hello@bigboards.io>
 
 # install js dependencies
 RUN npm install -g configurable-http-proxy
